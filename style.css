@@ -170,6 +170,17 @@ Header Css Start
     font-size: 14px;
   }
 }
+@media only screen and (max-width:767px) {
+  .navbar-toggler {
+    font-size: 18px;
+  }
+  .navbar-nav li a {
+    font-size: 12px;
+  }
+  .site-btn {
+    font-size: 12px;
+  }
+}
 /*
 ============================
 Header Css End
@@ -202,9 +213,17 @@ Hero Css Start
   opacity: .5;
   z-index: -1;
 }
+.hero-image {
+	position: absolute;
+	right: 150px;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 550px;
+}
 .hero-content h2 {
   color: #fff;
   font-size: 55px;
+  line-height: 1.1;
 }
 .hero-content h2 span {
 	color: var(--theme-color);
@@ -213,9 +232,57 @@ Hero Css Start
 	color: #fff;
 	font-size: 22px;
 	line-height: 30px;
+	max-width: 500px;
 }
 .hero-content a {
 	margin-top: 35px;
+}
+@media only screen and (max-width:1199px) {
+  .hero-image {
+    right: 100px;
+    max-width: 450px;
+  }
+  .hero-content h2 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .hero-content p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width:991px) {
+  .hero-image {
+    position: initial;
+    transform: initial;
+    max-width: 550px;
+    margin-top: 50px;
+  }
+  .hero-section.home-bg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .hero-content h2 {
+    font-size: 45px;
+  }
+  .hero-content a {
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .hero-section.home-bg {
+    padding-top: 55px;
+    padding-bottom: 60px;
+  }
+  .hero-content h2 {
+    font-size: 32px;
+  }
+  .hero-content p {
+    font-size: 17px;
+  }
+  .hero-content a {
+    margin-top: 20px;
+  }
 }
 /*
 ============================
@@ -223,9 +290,87 @@ Hero Css End
 ============================
 */
 
+/*
+============================
+Welcome Css Start
+============================
+*/
+.welcome-to-simplii-blinds {
+  padding: 30px 0;
+  background-color: var(--theme-color);
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.welcome-to-simplii-blinds:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/images/theme-color.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.welcome-to-simplii-blinds h3 {
+  font-size: 28px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+@media only screen and (max-width:991px) {
+  .welcome-to-simplii-blinds h3 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .welcome-to-simplii-blinds {
+    padding: 20px 0;
+  }
+  .welcome-to-simplii-blinds h3 {
+    font-size: 20px;
+  }
+}
+/*
+============================
+Welcome Css End
+============================
+*/
 
-
-
+.four-column-section {
+	padding: 60px 0;
+}
+.four-col-boxes {
+  position: relative;
+}
+.four-col-boxes h5 {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	font-size: 17px;
+	color: #fff;
+	padding: 8px 25px;
+	transform: translateX(-50%);
+	background-color: var(--theme-color);
+	font-family: "Jost", sans-serif;
+}
+.four-col-boxes-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+/* .four-col-boxes:first-child {
+  margin-right: -100px;
+}
+.four-col-boxes:last-child {
+  margin-left: -100px;
+} 
+.four-col-boxes:first-child h5 {
+	left: 35%;
+}  */
 /*
 ============================
 Footer Css Start

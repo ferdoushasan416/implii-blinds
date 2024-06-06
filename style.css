@@ -116,7 +116,9 @@ Main Btn Css End
   overflow: hidden;
 }
 @media screen and (min-width: 1360px) {
-
+.container-sm {
+  max-width: 1170px;
+}
 }
 /*
 ============================
@@ -309,7 +311,7 @@ Welcome Css Start
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/theme-color.png);
+  background-image: url(assets/images/welcome-bg.png);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -335,6 +337,11 @@ Welcome Css Start
 /*
 ============================
 Welcome Css End
+============================
+
+/*
+============================
+Four Cols Section Css Start
 ============================
 */
 
@@ -404,7 +411,7 @@ Welcome Css End
 }
 @media only screen and (max-width:767px) {
   .four-col-boxes {
-    width: 100%;
+    width: 95%;
   }
   .four-col-boxes:first-child {
     margin-right: 0;
@@ -417,6 +424,51 @@ Welcome Css End
     padding: 8px 18px;
   }
 }
+/*
+============================
+Four Cols Section Css End
+============================
+*/
+
+/*
+============================
+Four Service Css Start
+============================
+*/
+.four-service-box-section {
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.service-box-icon {
+	margin-bottom: 20px;
+}
+.service-boxes h4 {
+	color: var(--black);
+	font-size: 18px;
+	font-family: "Jost", sans-serif;
+	line-height: 1.3;
+}
+@media only screen and (max-width:991px) {
+  .service-boxes h4 {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .four-service-box-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .service-boxes {
+    margin-bottom: 20px;
+  }
+}
+/*
+============================
+Four Service Css Start
+============================
+*/
+
+
 /*
 ============================
 Footer Css Start

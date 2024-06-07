@@ -587,22 +587,24 @@ Products Box Css End
 
 /*
 ============================
-At Simpii Blinds Css Start
+Simpii Blinds Css Start
 ============================
 */
-.at-simpii-blinds-section {
+.simpii-blinds-section {
   color: var(--white-color);
 	padding-top: 70px;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
-.at-simpii-blinds-section .section-title h3 {
+.simpii-blinds-section .section-title h3 {
   font-size: 35px;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
 }
-.at-simpii-blinds-section .section-title p {
+.simpii-blinds-section .section-title p {
 	font-size: 20px;
 	font-weight: 500;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 .call-info {
 	color: #434343;
@@ -614,7 +616,7 @@ At Simpii Blinds Css Start
   flex-wrap: wrap;
 	padding: 10px;
 	padding-left: 30px;
-	max-width: 940px;
+	max-width: 915px;
 	margin-right: auto !important;
 	margin-left: auto !important;
 }
@@ -628,21 +630,21 @@ At Simpii Blinds Css Start
 	font-family: "Jost", sans-serif;
 }
 @media only screen and (max-width:991px) {
-  .at-simpii-blinds-section {
+  .simpii-blinds-section {
     padding-top: 50px;
-    padding-bottom: 65px;
   }
-  .at-simpii-blinds-section .section-title h3 {
+  .simpii-blinds-section .section-title h3 {
     font-size: 30px;
     margin-bottom: 20px;
   }
   .call-info p {
     font-size: 17px;
   }
-  .at-simpii-blinds-section .section-title p {
+  .simpii-blinds-section .section-title p {
     font-size: 18px;
   }
   .call-info {
+    padding-left: 0;
     margin-top: 40px;
     justify-content: center;
   }
@@ -651,15 +653,14 @@ At Simpii Blinds Css Start
   }
 }
 @media only screen and (max-width:767px) {
-  .at-simpii-blinds-section {
+  .simpii-blinds-section {
     padding-top: 45px;
-    padding-bottom: 55px;
   }
-  .at-simpii-blinds-section .section-title h3 {
+  .simpii-blinds-section .section-title h3 {
     font-size: 25px;
     margin-bottom: 15px;
   }
-  .at-simpii-blinds-section .section-title p {
+  .simpii-blinds-section .section-title p {
     font-size: 16px;
   }
   .call-info p {
@@ -668,11 +669,79 @@ At Simpii Blinds Css Start
 }
 /*
 ============================
-At Simpii Blinds Css End
+Simpii Blinds Css End
 ============================
 */
 
-.at
+/*
+============================
+Our Services Css Start
+============================
+*/
+.our-services-section {
+	padding-top: 60px;
+	padding-bottom: 100px;
+  background-color: #F7F6F4;
+}
+.service-content-wrap .row {
+	margin-top: 40px;
+}
+.service-content {
+  max-width: 400px;
+}
+.service-content p {
+	margin-top: 14px;
+}
+.mt-60 {
+  margin-top: 60px !important;
+}
+.service-content h3 {
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+.content-list li {
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  gap: 12px;
+}
+.content-list li:before {
+  content: "o";
+}
+@media only screen and (max-width:991px) {
+  .mt-60 {
+    margin-top: 30px !important;
+  }
+  .service-content {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .our-services-section {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .service-content-wrap .row {
+    margin-top: 25px;
+  }
+  .service-content h3 {
+    font-size: 20px;
+  }
+  .service-content p {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .content-list li {
+    font-size: 16px;
+  }
+}
+/*
+============================
+Our Services Css End
+============================
+*/
+
 /*
 ============================
 Footer Css Start

@@ -281,6 +281,7 @@ Hero Css Start
   }
   .hero-content p {
     font-size: 17px;
+    line-height: 28px;
   }
   .hero-content a {
     margin-top: 20px;
@@ -432,10 +433,10 @@ Four Cols Section Css End
 
 /*
 ============================
-Four Service Css Start
+Service Box Css Start
 ============================
 */
-.four-service-box-section {
+.service-box-section {
   padding-top: 90px;
   padding-bottom: 60px;
 }
@@ -450,11 +451,11 @@ Four Service Css Start
 }
 @media only screen and (max-width:991px) {
   .service-boxes h4 {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width:767px) {
-  .four-service-box-section {
+  .service-box-section {
     padding-top: 50px;
     padding-bottom: 40px;
   }
@@ -464,11 +465,214 @@ Four Service Css Start
 }
 /*
 ============================
-Four Service Css Start
+Service Box Css End
 ============================
 */
 
+/*
+============================
+Products Box Css Start
+============================
+*/
+.our-products-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.product-boxes {
+	margin-top: 30px;
+	position: relative;
+	z-index: 2;
+}
+.section-title h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.section-title h4 {
+  color: var(--theme-color);
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+.product-box-img:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+.product-box-img img {
+	width: 100%;
+}
+.product-boxes h2 {
+	position: absolute;
+	bottom: 110px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	font-size: 45px;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+  z-index: 2;
+}
+.product-boxes a{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -18px;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  background-color: #E77626;
+}
+.product-boxes a i {
+	padding-left: 15px;
+	font-size: 22px;
+}
+.site-btn.product-boxes a:hover {
+  color: #fff;
+  background-color: var(--black);
+}
+@media only screen and (max-width:991px) {
+  .our-products-section {
+    padding-top: 55px;
+    padding-bottom: 80px;
+  }
+  .section-title h2 {
+    font-size: 40px;
+    margin-bottom: 4px;
+  }
+  .section-title h4 {
+    font-size: 17px;
+  }
+  .product-boxes h2 {
+    font-size: 30px;
+    bottom: 80px;
+  }
+  .product-boxes a {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .our-products-section {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+  }
+  .section-title h4 {
+    font-size: 16px;
+  }
+  .product-boxes {
+   margin: 20px 0;
+  }
+  .product-boxes h2 {
+    font-size: 25px;
+  }
+  .product-boxes a {
+    font-size: 14px;
+  }
+  .product-boxes a i {
+    font-size: 20px;
+  }
+}
+/*
+============================
+Products Box Css End
+============================
+*/
 
+/*
+============================
+At Simpii Blinds Css Start
+============================
+*/
+.at-simpii-blinds-section {
+  color: var(--white-color);
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.at-simpii-blinds-section .section-title h3 {
+  font-size: 35px;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 25px;
+}
+.at-simpii-blinds-section .section-title p {
+	font-size: 20px;
+	font-weight: 500;
+}
+.call-info {
+	color: #434343;
+	margin-top: 60px;
+	background-color: var(--white-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  flex-wrap: wrap;
+	padding: 10px;
+	padding-left: 30px;
+	max-width: 940px;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.call-info p {
+	color: #434343;
+  font-size: 18px;
+	font-weight: 500;
+}
+.call-info a {
+	background-color: #E77626;
+	font-family: "Jost", sans-serif;
+}
+@media only screen and (max-width:991px) {
+  .at-simpii-blinds-section {
+    padding-top: 50px;
+    padding-bottom: 65px;
+  }
+  .at-simpii-blinds-section .section-title h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .call-info p {
+    font-size: 17px;
+  }
+  .at-simpii-blinds-section .section-title p {
+    font-size: 18px;
+  }
+  .call-info {
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .call-info a {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .at-simpii-blinds-section {
+    padding-top: 45px;
+    padding-bottom: 55px;
+  }
+  .at-simpii-blinds-section .section-title h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .at-simpii-blinds-section .section-title p {
+    font-size: 16px;
+  }
+  .call-info p {
+    font-size: 16px;
+  }
+}
+/*
+============================
+At Simpii Blinds Css End
+============================
+*/
+
+.at
 /*
 ============================
 Footer Css Start

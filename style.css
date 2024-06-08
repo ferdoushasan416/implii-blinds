@@ -883,10 +883,91 @@ Contact Us Css Start
 ===========================
 */
 
-
-
-
-
+/*
+===========================
+Gallery Css Start
+===========================
+*/
+.gallery-section {
+	padding: 80px 0;
+}
+.gallery-section .section-title h2 {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+}
+.gallery-image-inner {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+.gallery-single-img {
+  width: 20%;
+}
+.gallery-single-img img {
+  width: 100%;
+}
+.gallery-single-img:nth-child(2) img {
+  margin-bottom: 25px;
+}
+.gallery-single-img:nth-child(4) img {
+  margin-bottom: 25px;
+}
+.gallery-btn {
+	margin-top: -65px;
+}
+.gallery-btn .site-btn {
+	padding: 8px 50px;
+}
+@media only screen and (max-width:1199px) {
+  .gallery-btn {
+    margin-top: -48px;
+  }
+  .gallery-btn .site-btn {
+    padding: 8px 40px;
+  }
+}
+@media only screen and (max-width:991px) {
+  .gallery-section {
+    padding: 70px 0;
+  }
+  .gallery-image-inner {
+    gap: 15px;
+  }
+  .gallery-single-img:nth-child(2) img {
+    margin-bottom: 15px;
+  }
+  .gallery-single-img:nth-child(4) img {
+    margin-bottom: 15px;
+  }
+  .gallery-btn {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width:767px) {
+  .gallery-section .section-title {
+    margin-bottom: 30px;
+  }
+	.gallery-section {
+    padding: 50px 0;
+  }
+  .gallery-image-inner {
+    gap: 10px;
+  }
+  .gallery-single-img:nth-child(2) img {
+    margin-bottom: 10px;
+  }
+  .gallery-single-img:nth-child(4) img {
+    margin-bottom: 10px;
+  }
+  .gallery-btn {
+    margin-top: 15px;
+  }
+}
+/*
+===========================
+Gallery Css End
+===========================
+*/
 
 
 /*

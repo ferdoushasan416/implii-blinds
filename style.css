@@ -595,9 +595,12 @@ Simpii Blinds Css Start
 	padding-top: 70px;
 	padding-bottom: 60px;
 }
-.simpii-blinds-section .section-title h3 {
+.section-title h3 {
   font-size: 35px;
+  font-weight: 500;
   font-family: "Jost", sans-serif;
+}
+.simpii-blinds-section .section-title h3 {
   margin-bottom: 25px;
 }
 .simpii-blinds-section .section-title p {
@@ -633,8 +636,10 @@ Simpii Blinds Css Start
   .simpii-blinds-section {
     padding-top: 50px;
   }
-  .simpii-blinds-section .section-title h3 {
+  .section-title h3 {
     font-size: 30px;
+  }
+  .simpii-blinds-section .section-title h3 {
     margin-bottom: 20px;
   }
   .call-info p {
@@ -656,8 +661,10 @@ Simpii Blinds Css Start
   .simpii-blinds-section {
     padding-top: 45px;
   }
-  .simpii-blinds-section .section-title h3 {
+  .section-title h3 {
     font-size: 25px;
+  }
+  .simpii-blinds-section .section-title h3 {
     margin-bottom: 15px;
   }
   .simpii-blinds-section .section-title p {
@@ -741,6 +748,146 @@ Our Services Css Start
 Our Services Css End
 ============================
 */
+
+/*
+===========================
+Contact Us Css Start
+===========================
+*/
+.contact-us-section {
+	padding: 80px 0;
+  position: relative;
+}
+.contact-us-section .section-title {
+	margin-top: 100px;
+}
+.contact-form {
+	padding: 40px 35px 25px 35px;
+	background-color: var(--white-color);
+	border: 1px solid #E77626;
+	max-width: 480px;
+	margin-left: auto;
+}
+.contact-form h3 {
+  font-size: 25px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.contact-form h3 {
+  font-size: 25px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-bottom: 25px;
+} 
+.field input, .field select, .field textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  padding: 4px;
+  color: #6B6B6B;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+.field textarea {
+  height: 150px;
+}
+.field select {
+  background: transparent;
+}
+.field button {
+  color: #fff;
+  background-color: #FF914C;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s all ease;
+}
+.field button:hover {
+  background-color: #000000;
+}
+.field .arrow-top {
+  transform: rotate(45deg);
+  padding-left: 4px;
+  display: inline-block;
+}
+.contact-us-section .section-title a {
+  margin-top: 20px;
+}
+.contact-img {
+  position: absolute;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 500px;
+}
+@media only screen and (max-width:1199px) {
+  .contact-img {
+    left: 38%;
+    width: 444px;
+  }
+  .contact-form {
+    padding: 28px;
+    max-width: 395px;
+  }
+}
+@media only screen and (max-width:991px) {
+  .contact-img {
+    display: none;
+  }
+  .contact-form h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .field input, .field select, .field textarea {
+    font-size: 16px;
+  }
+  .field button {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .contact-us-section .section-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .contact-us-section {
+    padding: 50px 0;
+  }
+  .contact-form {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+ .contact-form h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+ }
+.field input, .field select, .field textarea {
+	font-size: 15px;
+ }
+.field button {
+	font-size: 15px;
+}
+}
+/*
+===========================
+Contact Us Css Start
+===========================
+*/
+
+
+
+
+
+
 
 /*
 ============================

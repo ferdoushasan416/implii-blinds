@@ -969,6 +969,153 @@ Gallery Css End
 ===========================
 */
 
+/*
+===========================
+Testimonials Css Start
+===========================
+*/
+.testimonials-section {
+	padding-top: 80px;
+	padding-bottom: 150px;
+}
+.testimonials-section .section-title h3 , 
+.testimonials-section .section-title h4 {
+  color: #fff;
+}
+.testimonials-active {
+	margin-top: 40px;
+}
+.single-testimonials {
+	background-color: var(--white-color);
+	padding: 40px 0 30px 28px;
+	width: 100%;
+	min-height: 307px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.testimonials-thumb {
+	display: flex;
+	gap: 30px;
+	margin-bottom: -12px;
+}
+.single-testimonials h3 {
+  font-size: 26px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.single-testimonials p {
+	max-width: 237px;
+}
+.review-stars {
+	font-size: 18px;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+}
+.review-stars img {
+  padding-left: 8px;
+}
+.single-testimonials h4 {
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+}
+.testminials-info h4 {
+  margin: 0;
+}
+.testminials-info span {
+	display: flex;
+	align-items: center;
+	margin-top: -5px;
+}
+.testminials-info p, .testminials-info span {
+	color: #626262;
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.review-no {
+	font-size: 10px !important;
+}
+.testminials-info span img {
+  width: 58px;
+  margin-right: 15px;
+}
+.testminials-info {
+  margin-bottom: 30px;
+}
+.testimonials-active .slick-arrow {
+	display: none !important;
+}
+.testimonials-active .slick-slider {
+  margin:0 -15px;
+}
+.testimonials-active .slick-slide {
+  margin-right:15px;
+  margin-left:15px;
+}
+.testimonials-active .slick-dots {
+	position: absolute;
+	left: 50%;
+	bottom: -100px;
+	transform: translateX(-50%);
+}
+.testimonials-active .slick-dots li {
+	width: 19px;
+	height: 19px;
+  margin: 0 3px;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+}
+.testimonials-active .slick-dots li button {
+	display: none;
+}
+.testimonials-active .slick-dots li.slick-active {
+	background-color: var(--white-color);
+}
+@media only screen and (max-width:991px) {
+  .testimonials-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .testimonials-active .slick-dots {
+    bottom: -70px;
+  }
+  .single-testimonials h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .review-stars {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .single-testimonials h4 {
+    font-size: 16px;
+  }
+  .single-testimonials p {
+    font-size: 17px;
+  }
+  .testimonials-active .slick-dots li {
+    width: 17px;
+    height: 17px;
+  }
+  }
+  @media only screen and (max-width:767px) {
+    .testimonials-active {
+      margin-top: 25px;
+    }
+    .single-testimonials p {
+      max-width: 100%;
+    }
+  }
+/*
+===========================
+Testimonials Css End
+===========================
+*/
+
 
 /*
 ============================

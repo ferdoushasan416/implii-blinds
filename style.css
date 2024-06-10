@@ -810,7 +810,7 @@ Contact Us Css Start
 .field button:hover {
   background-color: #000000;
 }
-.field .arrow-top {
+.arrow-top {
   transform: rotate(45deg);
   padding-left: 4px;
   display: inline-block;
@@ -891,10 +891,6 @@ Gallery Css Start
 .gallery-section {
 	padding: 80px 0;
 }
-.gallery-section .section-title h2 {
-	font-family: "Jost", sans-serif;
-	font-weight: 500;
-}
 .gallery-image-inner {
 	display: flex;
 	align-items: center;
@@ -947,6 +943,7 @@ Gallery Css Start
   .gallery-section .section-title {
     margin-bottom: 30px;
   }
+
 	.gallery-section {
     padding: 50px 0;
   }
@@ -1116,15 +1113,357 @@ Testimonials Css End
 ===========================
 */
 
+/*
+===========================
+Addres Css Start
+===========================
+*/
+.addres-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #F7F6F4;
+}
+.our-blog-section .section-title {
+  margin-bottom: 60px;
+}
+.addres-section .section-title h2 {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+.field-email {
+  margin-top: 40px;
+  position: relative;
+}
+.field-email input {
+  width: 100%;
+  outline: none;
+  background: transparent;
+  padding: 8px;
+  color: #6B6B6B;
+  font-size: 16px;
+  border: 1px solid var(--theme-color);
+  position: relative;
+}
+.field-email button {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  border: 0;
+  padding: 8px 45px;
+  background-color: #FF914C;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s all ease;
+}
+.field-email button:hover {
+  color: #fff;
+  background-color: var(--black);
+}
+.contact-info {
+  margin-top: 30px;
+}
+.contact-info h4 {
+  color: var(--black);
+  margin-bottom: 18px;
+}
+.contact-info h4 span {
+  margin-left: 30px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+@media only screen and (max-width:991px) {
+  .addres-section .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .field-email button {
+    font-size: 15px;
+    padding: 8px 40px;
+  }
+  .contact-info h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .addres-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .addres-section .section-title h2 {
+    margin-bottom: 10px;
+  }
+  .field-email {
+    margin-top: 28px;
+  }
+  .field-email input {
+    font-size: 14px;
+  }
+  .field-email button {
+    font-size: 14px;
+    padding: 8px 30px;
+  }
+  .contact-info h4 {
+    font-size: 15px;
+  }
+  .calendar-wrap {
+    margin-top: 20px;
+  }
+}
+/*
+===========================
+Addres Css End
+===========================
+*/
+
+/*
+===========================
+Blog Css Start
+===========================
+*/
+.our-blog-section {
+	padding: 80px 0;
+}
+.blog-meta {
+  margin-top: 10px;
+  background-color: #E77626;
+  border-radius: 5px;
+  padding: 6px;
+  display: flex;
+	justify-content: flex-end;
+}
+.blog-meta a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.blog-meta a img {
+  padding-right: 12px;
+}
+.blog-meta a span {
+  margin: 0 40px;
+}
+.single-blog-item p {
+  margin-top: 30px;
+  font-weight: 500;
+  max-width: 374px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.single-blog-item .box-btn {
+  border: 0;
+  margin-top: 10px;
+}
+.single-blog-item .box-btn:hover {
+  border: 0;
+  background: transparent;
+  color: var(--theme-color);
+}
+.our-blog-section .box-btn {
+  margin-top: 40px;
+}
+.box-btn {
+  color: #E77626;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid #E77626;
+  padding: 8px 15px;
+  transition: 0.3s all ease;
+}
+.box-btn:hover {
+  color: #fff;
+  background-color: #E77626;
+}
+@media only screen and (max-width:1199px) {
+  .blog-meta a {
+    font-size: 16px;
+  }
+  .blog-meta a span {
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width:991px) {
+  .single-blog-item {
+    margin-bottom: 20px;
+  }
+  .our-blog-section {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width:767px) {
+  .our-blog-section .section-title {
+    margin-bottom: 30px;
+  }
+  .our-blog-section {
+    padding: 20px 0;
+  }
+  .blog-meta a {
+    font-size: 15px;
+  }
+  .our-blog-section .box-btn {
+    margin-top: 20px;
+  }
+  .box-btn {
+    font-size: 16px;
+  }
+}
+/*
+===========================
+Blog Css End
+===========================
+*/
+
 
 /*
 ============================
 Footer Css Start
 ============================
 */
-
-
-
+.site-footer {
+  background-color: #464646;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.footer-logo {
+	margin-left: -28px;
+}
+.widget-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.footer-box p {
+  max-width: 283px;
+}
+.footer-media {
+  margin-top: 18px;
+}
+.footer-media a {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 8px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  display: inline-block;
+  border: 1px solid var(--white-color);
+  transition: 0.3s all ease;
+}
+.footer-media a:hover {
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+}
+.footer-menu ul li {
+  margin-bottom: 15px;
+}
+.footer-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+.footer-menu ul li a:hover {
+  color: var(--theme-color);
+}
+.footer-contact-info p {
+	margin-bottom: 25px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+}
+.footer-contact-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.footer-contact-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.email-subscribe {
+	margin-top: 35px;
+	position: relative;
+	background-color: var(--white-color);
+	display: flex;
+}
+.email-subscribe input {
+	width: 100%;
+	outline: none;
+	border: 0;
+	background: transparent;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+.email-subscribe button {
+	color: #fff;
+	background-color: #E77626;
+	outline: none;
+	border: 0;
+	font-size: 18px;
+  margin: 4px;
+	padding: 5px 20px;
+	transition: 0.3s all ease;
+}
+.email-subscribe button:hover {
+  color: #fff;
+  background-color: var(--black);
+}
+.footer-copuright {
+  margin-top: 45px;
+  font-size: 16px;
+  color: var(--white-color);
+  font-family: 'Poppins', sans-serif;
+  border-top: 1px solid #fff;
+  padding-top: 12px;
+}
+@media only screen and (max-width:991px) {
+  .footer-logo {
+    max-width: 220px;
+  }
+  .footer-media {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .site-footer {
+    padding-top: 50px;
+  }
+  .footer-logo {
+    max-width: 180px;
+    margin-left: -12px;
+  }
+  .footer-media a {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+  }
+  .widget-title {
+    font-size: 17px;
+  }
+  .footer-menu ul li a {
+    font-size: 16px;
+  }
+  .email-subscribe input, .email-subscribe button  {
+    font-size: 16px;
+  }
+  .footer-copuright {
+    font-size: 14px;
+  }
+}
 /*
 ============================
 Footer Css End

@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
   $('.testimonials-active').slick({
-    autoplay:false,
+    autoplay:true,
     slidesToShow: 4,
     loop:true,
     dots:true,

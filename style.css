@@ -150,6 +150,9 @@ Header Css Start
   font-family: "Poppins", sans-serif;
   transition: 0.3s all ease;
 }
+.navbar-nav li a:hover {
+  color: var(--theme-color);
+}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
 	color: var(--theme-color);
 }
